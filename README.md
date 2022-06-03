@@ -9,10 +9,9 @@ flutter:
   assets:
     - assets/data.json
 
-##importar a dependencia do DIO no pubspec (consumir API)
-dependencies:
-  dio: ^4.0.6
+## dependencies
+  dio: ^4.0.6  (consumir API)
+  shared_preferences: ^2.0.15 (salva em memória chave e valor singleton)
 
-##importar a depencia do shared_dependencies no pubspec (salva em memória chave e valor singleton)
-dependencies:
-  shared_preferences: ^2.0.15
+
+  
